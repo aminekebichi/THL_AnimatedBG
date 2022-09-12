@@ -2,7 +2,16 @@ body{
     margin: 0;
     padding: 0;
 
-    background-image: url("/imgs/THL_HomePage_BG\(inv\).jpg");
+    background-image: url("/imgs/homepageBG.jpg");
+    background-repeat: no-repeat;
+}
+
+#temp{
+    margin-top: 3px;
+    margin-left: 76px;
+
+    width: 100vw;
+    height: 100vh;
 }
 
 .bg-wrapper{
@@ -11,15 +20,17 @@ body{
     justify-content: center;
     align-items: center;
 
+    /* position: absolute; */
+
     opacity: 0;
     transition: 1.6s;
 
     transform: translate(-75px, -3px);
     /* flex-wrap: wrap; */
 }
-.bg-wrapper:hover{
+/* .bg-wrapper:hover{
     opacity: 1;
-}
+} */
 
 #bg{
     /* background-repeat: round; */
@@ -32,53 +43,53 @@ body{
 }
 
 .square {
-    width: 6px;
-    height: 6px;
-    background: red;
+    width: 8px;
+    height: 8px;
+    background: coral;
 }
 
 .horizontal-rectangle {
-    width: 3px;
-    height: 6px;
-    background: red;
+    width: 4px;
+    height: 8px;
+    background: coral;
 }
 
 .vertical-rectangle {
-    width: 6px;
-    height: 3px;
-    background: red;
+    width: 8px;
+    height: 4px;
+    background: coral;
 }
 
 .triangle-up {
     width: 0;
     height: 0;
-    border-left: 3px solid transparent;
-    border-right: 3px solid transparent;
-    border-bottom: 3px solid red;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid coral;
 }
 
 .triangle-down {
     width: 0;
     height: 0;
-    border-left: 3px solid transparent;
-    border-right: 3px solid transparent;
-    border-top: 3px solid red;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid coral;
 }
 
 .triangle-left {
     width: 0;
     height: 0;
-    border-top: 3px solid transparent;
-    border-right: 3px solid red;
-    border-bottom: 3px solid transparent;
+    border-top: 4px solid transparent;
+    border-right: 4px solid coral;
+    border-bottom: 4px solid transparent;
 }
 
 .triangle-right {
     width: 0;
     height: 0;
-    border-top: 3px solid transparent;
-    border-left: 3px solid red;
-    border-bottom: 3px solid transparent;
+    border-top: 4px solid transparent;
+    border-left: 4px solid coral;
+    border-bottom: 4px solid transparent;
 }
 
 .break {
