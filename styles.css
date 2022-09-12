@@ -28,6 +28,18 @@ body{
     background: red;
 }
 
+.horizontal-rectangle {
+    width: 3px;
+    height: 6px;
+    background: red;
+}
+
+.vertical-rectangle {
+    width: 6px;
+    height: 3px;
+    background: red;
+}
+
 .triangle-up {
     width: 0;
     height: 0;
