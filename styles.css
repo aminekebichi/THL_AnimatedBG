@@ -1,8 +1,219 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    display: fixed;
+
+    padding-top: 20px;
+
+    background-image: url("/imgs/homepageBG.jpg/");
+    background-repeat: no-repeat;
+}
+
+#temp, #my-bag, #overlay{
+    margin-top: 3px;
+    margin-left: 3px;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+
+    opacity: 1;
+    transition: 1.6s;
+
+    z-index: 0;
+
+    transform: translate(-75px, -3px);
+    flex-wrap: wrap;
+}
+.bg-wrapper:hover{
+    opacity: 1;
+}
+
+.overlay-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+
+    opacity: 0;
+    transition: 1.6s;
+
+    z-index: 1000;
+
+    transform: translate(-75px, -3px);
+    flex-wrap: wrap;
+}
+
+.triangle-up-bg{
+    z-index: 10000;
+}
+
+.center-wrapper{
+    display: flex;
+    flex-wrap: nowrap  ;
+}
+
+.square {  
+    width: 8px;
+    height: 8px;
+    background: transparent;
+}
+
+.square-bg {
+    width: 8px;
+    height: 8px;
+    background: coral;
+}
+
+.horizontal-rectangle {
+    width: 6px;
+    height: 8px;
+    background: transparent;
+    border-top: 2px solid coral;
+    border-bottom: 2px solid coral;
+}
+
+.horizontal-rectangle-bg {
+    width: 4px;
+    height: 8px;
+    background: coral;
+}
+
+.vertical-rectangle {
+    width: 8px;
+    height: 4px;
+    background: transparent;
+    border-left: 2px solid coral;
+    border-right: 2px solid coral;
+}
+
+.vertical-rectangle-bg {
+    width: 8px;
+    height: 4px;
+    background: coral;
+}
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 4px solid coral;
+}
+
+.triangle-up-bg {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid coral;
+}
+
+.inner-triangle-up {
+    position: relative;
+    transform: translate(-4px, 3px);
+    width: 0;
+    height: 0;
+    border-left: 4px solid coral;
+    border-right: 4px solid coral;
+    border-bottom: 3px solid white;
+}
+
+.triangle-down-bg {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid coral;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-right: 4px solid coral;
+    border-bottom: 6px solid transparent;
+}
+
+.triangle-left-bg {
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-right: 4px solid coral;
+    border-bottom: 4px solid transparent;
+}
+
+.inner-triangle-left{
+    position: relative;
+    transform: translate(3px, -4px);
+    width: 0;
+    height: 0;
+    border-top: 4px solid coral;
+    border-right: 3px solid white;
+    border-bottom: 4px solid coral;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-left: 4px solid coral;
+    border-bottom: 6px solid transparent;
+}
+
+.triangle-right-bg {
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-left: 4px solid coral;
+    border-bottom: 4px solid transparent;
+}
+
+.inner-triangle-right{
+    position: relative;
+    transform: translate(-6px, -4px);
+    width: 0;
+    height: 0;
+    border-top: 4px solid coral;
+    border-left: 3px solid white;
+    border-bottom: 4px solid coral;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+#test{
+    width: 200vw;
+    height: 200px;
+
+    top: 50%;
+    left: 50%;
+
+    position: fixed;
+    z-index: 2000;
+
+    transform: rotate(90deg);
+
+    background-color: blue;
+} */
+
 body{
     margin: 0;
     padding: 0;
 
-    background-image: url("/imgs/homepageBG.jpg");
+    background-image: url("/imgs/homepageBG4.jpg");
     background-repeat: no-repeat;
 }
 
